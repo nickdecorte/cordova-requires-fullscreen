@@ -1,0 +1,23 @@
+{
+  "name": "cordova-requires-fullscreen",
+  "version": "1.0.0",
+  "description": "Requires the app in fullscreen to disable iPad Multitasking",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickdecorte/cordova-requires-fullscreen.git"
+  },
+  "keywords": [
+    "ios",
+    "ipad",
+    "fullscreen",
+    "multitask",
+    "cordova",
+    "phonegap"
+  ],
+  "author": "Nick Decorte",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nickdecorte/cordova-requires-fullscreen/issues"
+  },
+  "homepage": "https://github.com/nickdecorte/cordova-requires-fullscreen#readme"
+}

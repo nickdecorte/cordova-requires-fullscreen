@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:rim="http://www.blackberry.com/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" id="cordova-requires-fullscreen" version="1.0.0">
+    <name>App Requires FullScreen</name>
+    <description>Cordova/PhoneGap Plugin to enable ios fullscreen to avoid multitasking for iPad</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova,phonegap,fullscreen,multitasking,ipad</keywords>
+    <repo>https://github.com/nickdecorte/cordova-requires-fullscreen.git</repo>
+    <platform name="ios">
+        <config-file target="*-Info.plist" parent="UIRequiresFullScreen">
+            <true/>
+        </config-file>
+    </platform>
+</plugin>
